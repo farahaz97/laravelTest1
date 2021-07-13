@@ -1,0 +1,112 @@
+/* CSS File */
+
+body {
+    background-color: white;
+    color: black;    
+    /* max-width: 900px; */
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+    padding-left: auto;
+    padding-right: auto;
+}
+a{
+    background-color:transparent;
+}
+
+.container {
+    top:auto;
+    left: 10%;
+    width: auto;
+}
+
+img{
+    width:50%;
+    padding:15px;
+    height: 200px;
+    position:center;
+
+}
+
+.caption{
+    font-weight: bold;
+    margin: 20px;
+    text-align: left;
+
+}
+
+.thumbnail{
+    padding: 10%;
+    width: 50%;
+    border: 2px solid black;
+    float: auto;
+    left: auto;
+    height: 50%;
+    position:relative;
+    margin: 10px;
+    outline-style: auto;
+
+}
+
+
+.title {
+    font-weight: bold;
+    margin:20px;
+    text-align: center;
+}
+
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  .nav{
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .button {
+    background-color:orange; 
+    color: black ; 
+    border: 3px solid red;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+  }
+  
+  .button:hover {
+    background-color: red;
+    color:black;
+  }
+  
